@@ -20,7 +20,7 @@ class DeliveryTimelineScreen extends StatefulWidget {
 }
 
 class _DeliveryTimelineScreenState extends State<DeliveryTimelineScreen> {
-  final AblyRealtime ablyRealtime = AblyRealtime('your-ably-api-key');
+  final AblyRealtime ablyRealtime = AblyRealtime('');
   late RealtimeChannel channel;
 
   @override
